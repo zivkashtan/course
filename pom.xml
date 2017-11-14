@@ -22,6 +22,14 @@
         <module>core</module>
         <module>web</module>
     </modules>
+         
+   <distributionManagement>
+    <repository>
+      <id>internal.repo</id>
+      <name>Demo internal repo</name>
+      <url>http://18.195.91.166:8081/</url>
+    </repository>
+  </distributionManagement>
 
     <build>
         <pluginManagement>
